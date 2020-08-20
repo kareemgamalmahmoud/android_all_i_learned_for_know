@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#708090">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#F5DEB3"
+            android:fontFamily="casual"
+            android:text="@string/choose_text"
+            android:layout_marginBottom="9dp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#8B008B"
+                android:fontFamily="casual"
+                android:text="@string/choose1_text"
+                android:textColorLink="#A0522D"
+                android:textStyle="italic|bold"
+                android:id="@+id/quiz"
+                />
+            <RadioButton
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#800080"
+                android:fontFamily="casual"
+                android:text="@string/choose2_text"
+                android:textColorLink="#A0522D"
+                android:textStyle="italic|bold"
+                />
+            <RadioButton
+                android:id="@+id/vid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#000080"
+                android:fontFamily="casual"
+                android:text="@string/choose3_text"
+                android:textColorLink="#A0522D"
+                android:textStyle="italic|bold"
+                />
+            <RadioButton
+                android:id="@+id/broad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#00FF7F"
+                android:fontFamily="casual"
+                android:text="@string/choose4_text"
+                android:textColorLink="#A0522D"
+                android:textStyle="italic|bold"
+                />
+            <RadioButton
+                android:id="@+id/cipher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#00FF7F"
+                android:fontFamily="casual"
+                android:text="@string/choose5_text"
+                android:textColorLink="#A0522D"
+                android:textStyle="italic|bold"
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Done_text"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#808000"
+            android:textColorLink="#FF4500"
+            android:textStyle="italic|bold"
+            android:drawableBottom="#FF0000"
+            android:onClick="Done"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

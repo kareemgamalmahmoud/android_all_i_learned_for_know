@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">M3W</string>
+    <string name="choose_text">Choose event :</string>
+    <string name="choose1_text">IQ App</string>
+    <string name="choose2_text">Capture image</string>
+    <string name="choose3_text">Capture Video</string>
+    <string name="choose4_text">"broadcast "</string>
+    <string name="choose5_text">Cipher program</string>
+    <string name="Done_text">Done</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="R11_text">46</string>
+    <string name="Q1_text">Q1. 10 , 17 , 26 , 37 , <b>?</b></string>
+    <string name="R12_text">50</string>
+    <string name="R13_text">52</string>
+    <string name="R14_text">56</string>
+    <string name="Q2_text">Q2. 0 , 1 , 3 , 6 , 10 , <b>?</b></string>
+    <string name="Q3_text">Q3. 1 , 1 , 2 , 3 , 5 , <b>?</b> </string>
+    <string name="java_ter">Java</string>
+    <string name="Q4_txt">Q4.  21 , 20 , 18 , 15 , 11 , <b>?</b></string>
+    <string name="js_txt">JavaScript</string>
+    <string name="btn_txt">Score</string>
+    <string name="title_txt">Welcome To !Q App.</string>
+    <string name="yscore_text">Your Score </string>
+    <string name="yRate_text">Your Rate</string>
+    <string name="title2_txt">Welcome To Cap. Image App</string>
+    <string name="B1">Capture</string>
+    <string name="B2">Display</string>
+    <string name="todo_txt">TODO</string>
+    <string name="Delete_text">Delete</string>
+    <string name="title3_txt">Welcome To Cap. Video App</string>
+    <string name="Broad_textView">Send My Broadcast</string>
+    <string name="Q5_txt">Q5. 8 , 6 , 7 , 5 , 6 , 4 , ?</string>
+    <string name="Q6_txt">Q6. 65536 , 256 , 16 , ?</string>
+</resources>

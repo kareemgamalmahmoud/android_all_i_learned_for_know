@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity"
+    android:background="#8B4513">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/title3_txt"
+            android:textAlignment="center"
+            android:textColor="#00F"
+            android:textSize="26sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F00"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:background="#2F4F4F"
+            android:padding="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/B1"
+                android:onClick="Cap"
+                android:layout_weight="1"
+                android:textStyle="bold|italic"
+                android:background="#4169E1"
+                android:layout_margin="15dp"
+                android:textColor="#8B4515"
+                android:textSize="16sp"
+                style="@android:style/ButtonBar"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/B2"
+                android:onClick="display"
+                android:layout_weight="1"
+                android:textStyle="bold|italic"
+                android:background="#4169E1"
+                android:layout_margin="15dp"
+                android:textColor="#8B4515"
+                android:textSize="16sp"
+                style="@android:style/ButtonBar"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F00"
+            />
+
+        <VideoView
+            android:id="@+id/vi"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:background="#000"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F00"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Delete_text"
+            android:textStyle="bold|italic"
+            android:layout_margin="15dp"
+            android:textColor="#8B4515"
+            android:textSize="16sp"
+            style="@android:style/ButtonBar"
+            android:textAllCaps="false"
+            android:onClick="Delete"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F00"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
